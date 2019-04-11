@@ -1,0 +1,25 @@
+body{
+  font-family: $fontLato;
+}
+
+img{
+  max-width: 100%;
+}
+
+.bt-rose{
+  font-family: $fontRaleway;
+  font-size: 14px;
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  background-color: $colorPink;
+  border-radius: 5px;
+  padding: 11px 20px;
+  display: inline-block;
+  width: max-content;
+  @include transition();
+  &:hover{
+    background-color: darken( $colorPink, 10% );
+  }
+}

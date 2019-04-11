@@ -1,0 +1,33 @@
+.footer{
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  font-family: $fontLato;
+  h4{
+    font-size: 16px;
+    color: $colorTitre;
+    font-weight: normal;
+    margin-bottom: 0;
+  }
+  ul{
+    list-style: none;
+    padding: 0;
+    li{
+      margin: 5px 0;
+      a:not(.bt-rose){
+        font-size: 14px;
+        color: $colorTxt;
+        text-decoration: none;
+        &:hover{
+          color: $colorBlue;
+        }
+      }
+    }
+  }
+  .footer-bt{
+    display: none;
+    @media screen and (min-width:640px){
+      display: initial;
+    }
+  }
+}

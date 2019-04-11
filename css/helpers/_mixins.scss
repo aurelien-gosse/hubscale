@@ -1,0 +1,4 @@
+// Mixins
+@mixin transition($secondes : .3s){
+  transition: $secondes all ease-in-out;
+}
